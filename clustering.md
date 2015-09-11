@@ -18,7 +18,7 @@ incremental: true
 First, always look at all of the data
 ========================================================
 
-Here are [all of the indexes](file:///Users/mpettis/Personal/tech-talks/clustering/img/all-indexes.png)
+Here are [all of the indexes](img/all-indexes.png)
 
 How could one group these indexes in "like" groups?
 
@@ -46,7 +46,7 @@ incremental: true
 Results
 ========================================================
 
-- Here is [strips by cluster and colors by region](file:///Users/mpettis/Personal/tech-talks/clustering/img/strip-cluster-color-georegion.png)
+- Here is [strips by cluster and colors by region](img/strip-cluster-color-georegion.png)
     - Clusters often highly homogeneous for a region, with a few stragglers.
     - Region Eur1 seems split across clusters 6 & 7.
     - Overall suggests region might be better than just clustering.
@@ -55,7 +55,7 @@ Results
 Results
 ========================================================
 
-- Here is [strips by region and colors by cluster](file:///Users/mpettis/Personal/tech-talks/clustering/img/strip-georegion-color-cluster.png)
+- Here is [strips by region and colors by cluster](img/strip-georegion-color-cluster.png)
     - Regions not as highly homogeneous by kmeans cluster.
     - Overall appears to have a looser federation of indexes than for kmeans clusters.
     - Some regions sparsely populated -- may or may not be problem.
@@ -74,7 +74,7 @@ Alternate: Hierarchical clustering
 
 A nice feature to this is that you can tell how strongly clusters diverge or converge as you try to roll clusters together.
 
-[Here](file:///Users/mpettis/Personal/tech-talks/clustering/img/dendogram.png) is a dendogram for hierarchical clustering, more clusters.
+[Here](img/dendogram.png) is a dendogram for hierarchical clustering, more clusters.
 
 
 Conclusions

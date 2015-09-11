@@ -808,7 +808,7 @@ hljs.initHighlightingOnLoad();
 <section data-transition="linear" data-transition-speed="default">
 <h3>First, always look at all of the data</h3>
 <div class="slideContent" >
-<p>Here are <a href="file:///Users/mpettis/Personal/tech-talks/clustering/img/all-indexes.png">all of the indexes</a></p>
+<p>Here are <a href="img/all-indexes.png">all of the indexes</a></p>
 
 <p>How could one group these indexes in &ldquo;like&rdquo; groups?</p>
 
@@ -855,7 +855,7 @@ hljs.initHighlightingOnLoad();
 <h3>Results</h3>
 <div class="slideContent" >
 <ul>
-<li>Here is <a href="file:///Users/mpettis/Personal/tech-talks/clustering/img/strip-cluster-color-georegion.png">strips by cluster and colors by region</a>
+<li>Here is <a href="img/strip-cluster-color-georegion.png">strips by cluster and colors by region</a>
 
 <ul>
 <li>Clusters often highly homogeneous for a region, with a few stragglers.</li>
@@ -871,7 +871,7 @@ hljs.initHighlightingOnLoad();
 <h3>Results</h3>
 <div class="slideContent" >
 <ul>
-<li>Here is <a href="file:///Users/mpettis/Personal/tech-talks/clustering/img/strip-georegion-color-cluster.png">strips by region and colors by cluster</a>
+<li>Here is <a href="img/strip-georegion-color-cluster.png">strips by region and colors by cluster</a>
 
 <ul>
 <li>Regions not as highly homogeneous by kmeans cluster.</li>
@@ -884,11 +884,30 @@ hljs.initHighlightingOnLoad();
 
 </section>
 <section data-transition="linear" data-transition-speed="default">
+<h3>Results</h3>
+<div class="slideContent" >
+<ul>
+<li>Are there quantitative measures of goodness of fit of clusters?  Yes, such as:
+
+<ul>
+<li>Time series Pearson correlation function.
+
+<ul>
+<li>can be misleading if there are long stretches of noise.</li>
+</ul></li>
+<li>Silhouette calculations on clusters.  Plots of these &ldquo;widths&rdquo; can help you determine natural or optimal number of clusters, and how well-defined the clusters are.</li>
+</ul></li>
+</ul>
+
+</div>
+
+</section>
+<section data-transition="linear" data-transition-speed="default">
 <h3>Alternate: Hierarchical clustering</h3>
 <div class="slideContent" >
 <p>A nice feature to this is that you can tell how strongly clusters diverge or converge as you try to roll clusters together.</p>
 
-<p><a href="file:///Users/mpettis/Personal/tech-talks/clustering/img/dendogram.png">Here</a> is a dendogram for hierarchical clustering, more clusters.</p>
+<p><a href="img/dendogram.png">Here</a> is a dendogram for hierarchical clustering, more clusters.</p>
 
 </div>
 
