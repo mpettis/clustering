@@ -92,7 +92,11 @@ Questions?
 
 ... and thank you!
 
-Location of this presentation:
+Matt Pettis
+- Email: matthew.pettis@gmail.com
+- Twitter: @mtpettis
+- GitHub: mpettis
 
-https://github.com/mpettis/clustering
+Location of this presentation:
+- https://github.com/mpettis/clustering
 
