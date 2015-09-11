@@ -91,3 +91,8 @@ Questions?
 ========================================================
 
 ... and thank you!
+
+Location of this presentation:
+
+https://github.com/mpettis/clustering
+
